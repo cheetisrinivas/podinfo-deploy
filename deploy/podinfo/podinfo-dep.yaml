@@ -7,7 +7,7 @@ metadata:
   annotations:
     flux.weave.works/tag.podinfod: semver:>3.0.0
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: podinfo
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: quay.io/stefanprodan/podinfo:3.1.4
+        image: quay.io/stefanprodan/podinfo:3.1.5
         command:
         - ./podinfo
         - --port=9898
