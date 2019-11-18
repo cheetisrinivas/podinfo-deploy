@@ -1,0 +1,1 @@
+{"jobID":"d7aa44bd-badb-0df6-38f4-1a4890b524c7","spec":{"type":"policy","cause":{"Message":"","User":"SRINIVAS CHEETI \u003csrinivascheeti@gmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
